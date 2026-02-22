@@ -25,8 +25,7 @@ public class App {
         int pessoas = teclado.nextInt();
 
         MeiaEntrada meia = new MeiaEntrada(valor, nomeFilme, dublado);
-        IngressoFamilia familia =
-                new IngressoFamilia(valor, nomeFilme, dublado, pessoas);
+        IngressoFamilia familia = new IngressoFamilia(valor, nomeFilme, dublado, pessoas);
 
         System.out.println("\n--- RESULTADO ---");
         System.out.println("Meia entrada: R$ " + meia.ValorReal());
